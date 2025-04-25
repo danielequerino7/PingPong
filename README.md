@@ -42,7 +42,7 @@ java PingPongServer.java
 
 ### 3. Para os clientes entrarem no servidor
 
-Cada jogador deve dar o este comando no terminal:
+Cada jogador deve dar este comando no terminal:
 
 ```bash
 java PingPongServer.java
