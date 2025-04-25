@@ -10,7 +10,9 @@ Este projeto implementa um servidor multiplayer de Ping Pong utilizando Java com
   - `PingPongServer.java` (servidor)
   - `PingPongClient.java` (cliente)
 
----
+--- Pode ser utilizado o TailScale para conectar os clientes no mesmo servidor, quando usar o software use a mesma conta para ambos os clientes.
+--- O TailScale cria-se uma LAN virtual para que conecte-se os clientes no mesmo servidor.
+--- No arquivo PingPongClient na linha 10 coloque o IP que aparece no TailScale.
 
 ## 📁 Estrutura
 
@@ -28,3 +30,20 @@ Abra o terminal na pasta onde estão os arquivos `.java` e digite:
 
 ```bash
 javac PingPongServer.java PingPongClient.java
+```
+
+### 2. No terminal para rodar o Servidor
+
+Digite:
+
+```bash
+java PingPongServer.java
+```
+
+### 3. Para os clientes entrarem no servidor
+
+Cada jogador deve dar o este comando no terminal:
+
+```bash
+java PingPongServer.java
+```
