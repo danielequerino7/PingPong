@@ -39,3 +39,19 @@ No terminal, dentro da pasta onde estão os arquivos `.java`, digite:
 
 ```bash
 javac PingPongServer.java PingPongClient.java
+```
+
+### 2. No terminal para rodar o Servidor
+
+Digite:
+
+bash
+java PingPongServer.java
+
+
+### 3. Para os clientes entrarem no servidor
+
+Cada jogador deve dar este comando no terminal:
+
+bash
+java PingPongServer.java
