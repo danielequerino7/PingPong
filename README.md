@@ -45,13 +45,14 @@ javac PingPongServer.java PingPongClient.java
 
 Digite:
 
-bash
+```bash
 java PingPongServer.java
-
+```
 
 ### 3. Para os clientes entrarem no servidor
 
 Cada jogador deve dar este comando no terminal:
 
-bash
+```bash
 java PingPongServer.java
+```
